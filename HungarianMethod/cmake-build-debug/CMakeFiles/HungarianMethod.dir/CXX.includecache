@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/HungarianMethod/MaximalMatching.cpp
+MaximalMatching.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/HungarianMethod/MaximalMatching.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/HungarianMethod/MaximalMatching.h
+vector
+-
+utility
+-
+queue
+-
+algorithm
+-
+stack
+-
+string
+-
+fstream
+-
+list
+-
+iostream
+-
+queue
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/HungarianMethod/main.cpp
+MaximalMatching.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/HungarianMethod/MaximalMatching.h
+

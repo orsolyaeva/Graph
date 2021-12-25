@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab03/Schelling_model.cpp
+Schelling_model.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab03/Schelling_model.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab03/Schelling_model.h
+iostream
+-
+vector
+-
+algorithm
+-
+array
+-
+random
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab03/main.cpp
+Schelling_model.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab03/Schelling_model.h
+

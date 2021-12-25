@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/BFS/BreadthFirstSearch.cpp
+BreadthFirstSearch.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/BFS/BreadthFirstSearch.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/BFS/BreadthFirstSearch.h
+iostream
+-
+utility
+-
+vector
+-
+list
+-
+climits
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+

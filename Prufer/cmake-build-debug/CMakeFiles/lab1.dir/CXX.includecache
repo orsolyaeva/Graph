@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.cpp
+Prufer.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
+iostream
+-
+utility
+-
+vector
+-
+list
+-
+climits
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+array
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/main.cpp
+Prufer.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/PrimMST.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/main.cpp
+PrimMST.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/PrimMST.h
+

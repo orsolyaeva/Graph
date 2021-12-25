@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Hamilton/Hamilton.cpp
+Hamilton.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Hamilton/Hamilton.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Hamilton/Hamilton.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+algorithm
+-
+

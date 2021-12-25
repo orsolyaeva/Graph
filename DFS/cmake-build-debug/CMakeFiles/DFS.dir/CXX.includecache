@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/DFS/DepthFirstSearch.cpp
+DepthFirstSearch.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/DFS/DepthFirstSearch.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/DFS/DepthFirstSearch.h
+iostream
+-
+utility
+-
+vector
+-
+list
+-
+climits
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+

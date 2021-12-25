@@ -1,0 +1,3 @@
+C:\Users\Orsi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\BFS.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\BFS.dir/objects.a @CMakeFiles\BFS.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BFS.dir/objects.a -Wl,--no-whole-archive -o BFS.exe -Wl,--out-implib,libBFS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BFS.dir\linklibs.rsp

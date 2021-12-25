@@ -1,0 +1,3 @@
+C:\Users\Orsi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Euler.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\Euler.dir/objects.a @CMakeFiles\Euler.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Euler.dir/objects.a -Wl,--no-whole-archive -o Euler.exe -Wl,--out-implib,libEuler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Euler.dir\linklibs.rsp

@@ -1,0 +1,19 @@
+/*              CONTENT             */
+
+/*      BFS     */
+~ szélességi bejárás
+
+/*      DFS     */
+~ mélységi bejárás
+
+/*      PRUFER CODE (lab01)     */
+
+/*      GIRVAN NEWMAN (lab02)   */
+
+/*      SCHELLING MODEL (lab03)     */
+
+/*      ARTICULATION POINTS AND BRIDGES (lab04)    */
+
+/*      PRIM ALGORITHM (lab07)     */
+
+/*      FLOYD (lab10 - heating problem exam)    */

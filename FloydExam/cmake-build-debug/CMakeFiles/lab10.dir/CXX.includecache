@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab10/heating_problem.cpp
+heating_problem.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab10/heating_problem.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab10/heating_problem.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+

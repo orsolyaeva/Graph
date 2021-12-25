@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab04/AP_Bridges.cpp
+AP_Bridges.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab04/AP_Bridges.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab04/AP_Bridges.h
+iostream
+-
+utility
+-
+vector
+-
+list
+-
+climits
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+array
+-
+

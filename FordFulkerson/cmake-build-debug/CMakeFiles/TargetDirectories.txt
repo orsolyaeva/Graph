@@ -1,0 +1,3 @@
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/cmake-build-debug/CMakeFiles/Ford_Fulkerson.dir
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/cmake-build-debug/CMakeFiles/rebuild_cache.dir

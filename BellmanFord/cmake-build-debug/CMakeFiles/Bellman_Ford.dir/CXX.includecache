@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Bellman_Ford/BellmanFord.cpp
+BellmanFord.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Bellman_Ford/BellmanFord.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Bellman_Ford/BellmanFord.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+algorithm
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Bellman_Ford/main.cpp
+BellmanFord.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Bellman_Ford/BellmanFord.h
+

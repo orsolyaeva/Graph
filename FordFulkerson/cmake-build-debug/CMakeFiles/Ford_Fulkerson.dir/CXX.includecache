@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/FordFulkerson.cpp
+FordFulkerson.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/FordFulkerson.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/FordFulkerson.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+algorithm
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/main.cpp
+FordFulkerson.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Ford_Fulkerson/FordFulkerson.h
+

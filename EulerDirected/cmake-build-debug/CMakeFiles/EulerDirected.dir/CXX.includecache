@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/EulerDirected/EulerDir.cpp
+EulerDir.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/EulerDirected/EulerDir.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/EulerDirected/EulerDir.h
+vector
+-
+utility
+-
+queue
+-
+algorithm
+-
+stack
+-
+string
+-
+fstream
+-
+list
+-
+iostream
+-
+unordered_map
+-
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/EulerDirected/main.cpp
+EulerDir.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/EulerDirected/EulerDir.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.cpp
+Viterbi.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.h
+iostream
+-
+vector
+-
+fstream
+-
+queue
+-
+list
+-
+algorithm
+-
+

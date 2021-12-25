@@ -1,0 +1,3 @@
+C:\Users\Orsi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Bellman_Ford.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\Bellman_Ford.dir/objects.a @CMakeFiles\Bellman_Ford.dir\objects1.rsp
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Bellman_Ford.dir/objects.a -Wl,--no-whole-archive -o Bellman_Ford.exe -Wl,--out-implib,libBellman_Ford.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Bellman_Ford.dir\linklibs.rsp
