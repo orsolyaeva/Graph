@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/ex.cpp">
+			<Option target="Viterbi"/>
+		</Unit>
+		<Unit filename="C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/ex.h">
+			<Option target="Viterbi"/>
+		</Unit>
 		<Unit filename="C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.cpp">
 			<Option target="Viterbi"/>
 		</Unit>

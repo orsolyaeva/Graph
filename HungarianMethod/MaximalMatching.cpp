@@ -49,12 +49,13 @@ void Graph::addEdge(int a, int b) {
     }
 }
 
+// a G paros graf A es B halmazainak a meghatarozasa
 int Graph::twoColoring(int s) {
     std::fill(this->colors.begin(), this->colors.end(), 0);
     std::fill(this->paint.begin(), this->paint.end(), 0);
     this->colors[s] = 1;
     this->paint[s] = 1;
-    int f1 = 1;
+    int f1 = 1; // A es B halamazok szamossaga
     int f2 = 0;
 
     queue<int> q;
@@ -80,6 +81,7 @@ int Graph::twoColoring(int s) {
         this->colors[u] = 2;
     }
 
+    // visszateriti a kevesebb elszamu halmaz elemszamat
     if (f1 < f2) {
         return 1;
     } else {
@@ -87,6 +89,8 @@ int Graph::twoColoring(int s) {
     }
 }
 
+// ha ez talal ibol indulo javito utakat akkor visszateriti annak vegpontjat
+// ez egy max-festek szinu pont, azaz a B halmaz eleme
 int Graph::findAugmentingPath(int s, int max_paint, int min_paint) {
     std::fill(this->colors.begin(), this->colors.end(), 0);
     std::fill(this->fathers.begin(), this->fathers.end(), 0);
@@ -119,6 +123,10 @@ int Graph::findAugmentingPath(int s, int max_paint, int min_paint) {
     return -1;
 }
 
+// a rekurziv eljaras vegigmegy a javitouton es minden elnek megvaltoztatja a statusat
+// ha eleme a parositasnak kiveszi, ha nem akkor pedig behelyezi
+// ez noveli 1el az M elemeinek a szamat
+// aparol -> apara
 void Graph::reverseAlternation(int i, int j) {
     int actual_edge  = this->matrix[j][this->fathers[j]];
     if(this->edgesM[actual_edge].p == 1) {
@@ -133,8 +141,8 @@ void Graph::reverseAlternation(int i, int j) {
 }
 
 void Graph::maximal_matching() {
-    int min_paint = twoColoring(0);
-    int max_paint;
+    int min_paint = twoColoring(0); // A
+    int max_paint; // B
     if(min_paint == 1) {
         max_paint = 2;
     } else {
@@ -142,7 +150,9 @@ void Graph::maximal_matching() {
     }
 
     for(int i = 0; i < this->eCount; i++) {
+        // kivalasztja a fuggetlen eleket, de az igy kapott M parositas nem maximalis
         if((this->paint[this->edgesM[i].u] > 0) && (this->paint[this->edgesM[i].v] > 0)) {
+            // az illeto el reszeve valt az M parositasnak
             this->paint[this->edgesM[i].u] = -this->paint[this->edgesM[i].u];
             this->paint[this->edgesM[i].v] = -this->paint[this->edgesM[i].v];
             this->edgesM[i].p = 1;
@@ -154,6 +164,7 @@ void Graph::maximal_matching() {
 //    }
 //    cout <<  endl << "min: " << min_paint << endl;
 
+    // meg le nem fedett pontokat keres
     for(int i = 0; i < this->nCount; i++) {
         if(this->paint[i] == min_paint) {
             int j = findAugmentingPath(i, max_paint, min_paint);

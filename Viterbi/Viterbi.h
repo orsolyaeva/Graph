@@ -46,6 +46,7 @@ public:
 
     void DFS();
     void depth_search(int u);;
+    void Viterbi(int s);
 };
 
 Graph readGraphFile(const string& filename);

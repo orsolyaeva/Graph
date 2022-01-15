@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/ex.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/cmake-build-debug/CMakeFiles/Viterbi.dir/C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.obj"
   "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/cmake-build-debug/CMakeFiles/Viterbi.dir/Viterbi.cpp.obj"
   "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/main.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/cmake-build-debug/CMakeFiles/Viterbi.dir/main.cpp.obj"
   )

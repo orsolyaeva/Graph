@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.cpp
-Viterbi.h
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.h
-
 C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.h
 iostream
 -
@@ -23,4 +19,8 @@ list
 -
 algorithm
 -
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/main.cpp
+Viterbi.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Viterbi/Viterbi.h
 

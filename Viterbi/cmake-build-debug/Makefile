@@ -128,6 +128,30 @@ Viterbi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Viterbi.dir\build.make CMakeFiles/Viterbi.dir/build
 .PHONY : Viterbi/fast
 
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.obj: C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.obj
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.obj
+
+# target to build an object file
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Viterbi.dir\build.make CMakeFiles/Viterbi.dir/C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.obj
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.obj
+
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.i: C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.i
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.i
+
+# target to preprocess a source file
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Viterbi.dir\build.make CMakeFiles/Viterbi.dir/C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.i
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.i
+
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.s: C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.s
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.s
+
+# target to generate assembly for a file
+C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Viterbi.dir\build.make CMakeFiles/Viterbi.dir/C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.s
+.PHONY : C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.cpp.s
+
 Viterbi.obj: Viterbi.cpp.obj
 .PHONY : Viterbi.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Viterbi
+	@echo ... C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.obj
+	@echo ... C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.i
+	@echo ... C_/Users/Orsi/Desktop/Egyetem/Graf_algoritmusok/Graph/PrimMST/ex.s
 	@echo ... Viterbi.obj
 	@echo ... Viterbi.i
 	@echo ... Viterbi.s

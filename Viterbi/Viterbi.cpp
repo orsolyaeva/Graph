@@ -94,7 +94,7 @@ void Graph::DFS() {
         }
     }
 
-//    reverse(this->topological.begin(), this->topological.end());
+    reverse(this->topological.begin(), this->topological.end());
     cout << "Topological order: ";
     for(auto& node : this->topological) {
         cout << node + 1 << " ";
@@ -112,4 +112,36 @@ void Graph::depth_search(int u) {
     }
     this->color[u] = 2;
     this->topological.emplace_back(u);
+}
+
+void Graph::Viterbi(int s) {
+    this->dist.resize(this->nCount);
+    this->fathers.resize(this->nCount);
+    for(int i = 0; i < this->nCount; i++) {
+        this->dist[i] = INT_MAX;
+    }
+
+    this->dist[s] = 0;
+    this->fathers[s] = 0;
+    int i = 0;
+
+    while (this->topological[i] != s) {
+        i += 1;
+    }
+
+    for(int j = i; j < this->nCount; j++) {
+        int u = this->topological[j];
+
+        for(auto & neighbor : this->nodes[u].neighbors) {
+            if(this->dist[u] + this->weights[u][neighbor->id - 1] < this->dist[neighbor->id - 1] && this->weights[u][neighbor->id - 1] != INT_MAX
+            && this->dist[u] != INT_MAX) {
+                this->fathers[neighbor->id - 1] = u;
+                this->dist[neighbor->id - 1] = this->dist[u] + this->weights[u][neighbor->id - 1];
+            }
+        }
+    }
+
+    for(int j = 0; j < this->nCount; j++) {
+        cout << j + 1 << " " << this->dist[j] << endl;
+    }
 }
