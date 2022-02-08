@@ -144,7 +144,7 @@ int Graph::getMinCut2(const vector<weightedEdge>& v, const vector<int>& attached
         if(this->cuts[i] == 1 && this->attachedEdge[i] == 0) {
             weight = v[i].second;
             int already = tree[v[i].first.first->id - 1] == 1 ? v[i].first.first->id : v[i].first.second->id;
-            cout << "keres: " << already << " " << "w: " << weight;
+//            cout << "keres: " << already << " " << "w: " << weight;
             int maxi = INT_MIN, maxiindex = 0;
             int j;
 
@@ -154,13 +154,13 @@ int Graph::getMinCut2(const vector<weightedEdge>& v, const vector<int>& attached
                     ok = true;
 
                     if (v[j].first.first->id == already && maxi < v[j].first.second->id) {
-                        cout << "tal: " << v[j].first.second->id << " " << endl;
+//                        cout << "tal: " << v[j].first.second->id << " " << endl;
                         maxi = v[j].first.second->id;
                         maxiindex = j;
                     }
 
                     if (v[j].first.second->id == already && maxi < v[j].first.first->id) {
-                        cout << "tal: " << v[j].first.first->id << " " << endl;
+//                        cout << "tal: " << v[j].first.first->id << " " << endl;
 //                        cout << maxi << endl;
                         maxi = v[j].first.first->id;
                         maxiindex = j;
@@ -169,7 +169,7 @@ int Graph::getMinCut2(const vector<weightedEdge>& v, const vector<int>& attached
             }
 
             if (ok) {
-                cout << "ret: " << v[maxiindex].first.first->id << " " << v[maxiindex].first.second->id << endl;
+//                cout << "ret: " << v[maxiindex].first.first->id << " " << v[maxiindex].first.second->id << endl;
                 return maxiindex;
             }
 
