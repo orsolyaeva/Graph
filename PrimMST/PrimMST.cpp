@@ -91,8 +91,8 @@ void Graph::Prim(int src) {
 
     int total_weight = 0; // count the total weight
     for(int step = 0; step < this->nCount - 1;  step++) {
-        int i = getMinCut(cEdges, attachedEdge); // get minimum edge index from the actual cut
-        cout << cEdges[i].first.first->id << " " << cEdges[i].first.second->id << " " << cEdges[i].second << endl;
+        int i = getMinCut2(cEdges, attachedEdge, tree); // get minimum edge index from the actual cut
+//        cout << cEdges[i].first.first->id << " " << cEdges[i].first.second->id << " " << cEdges[i].second << endl;
 
         this->degrees[cEdges[i].first.first->id - 1] += 1;
         this->degrees[cEdges[i].first.second->id - 1] += 1;
@@ -137,9 +137,42 @@ void Graph::Prim(int src) {
     }
 }
 
-int Graph::getMinCut(const vector<weightedEdge>& v, const vector<int>& attached) {
+int Graph::getMinCut2(const vector<weightedEdge>& v, const vector<int>& attached, vector<int>& tree) {
+    int weight = 0;
+    bool ok = false;
     for(int i = 0; i < this->eCount; i++) {
         if(this->cuts[i] == 1 && this->attachedEdge[i] == 0) {
+            weight = v[i].second;
+            int already = tree[v[i].first.first->id - 1] == 1 ? v[i].first.first->id : v[i].first.second->id;
+            cout << "keres: " << already << " " << "w: " << weight;
+            int maxi = INT_MIN, maxiindex = 0;
+            int j;
+
+            for(j = 0; j < this->eCount; j++) {
+                if(this->cuts[j] == 1 && this->attachedEdge[j] == 0 && v[j].second == weight
+                && (v[j].first.first->id == already || v[j].first.second->id == already)) {
+                    ok = true;
+
+                    if (v[j].first.first->id == already && maxi < v[j].first.second->id) {
+                        cout << "tal: " << v[j].first.second->id << " " << endl;
+                        maxi = v[j].first.second->id;
+                        maxiindex = j;
+                    }
+
+                    if (v[j].first.second->id == already && maxi < v[j].first.first->id) {
+                        cout << "tal: " << v[j].first.first->id << " " << endl;
+//                        cout << maxi << endl;
+                        maxi = v[j].first.first->id;
+                        maxiindex = j;
+                    }
+                }
+            }
+
+            if (ok) {
+                cout << "ret: " << v[maxiindex].first.first->id << " " << v[maxiindex].first.second->id << endl;
+                return maxiindex;
+            }
+
             return i;
         }
     }

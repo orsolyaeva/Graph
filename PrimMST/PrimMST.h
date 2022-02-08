@@ -64,7 +64,7 @@ public:
     void printAdjList() const;
     void Prim(int src);
     void PrimS(int src);
-    int getMinCut(const vector<weightedEdge>&, const vector<int>&);
+    int getMinCut2(const vector<weightedEdge>& v, const vector<int>& attached, vector<int>& tree);
 };
 
 Graph readGraphFile(const string& filename);
