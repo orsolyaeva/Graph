@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/PrimMST.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/PrimMST.cpp
+PrimMST.h
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/PrimMST.h
+
+C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/PrimMST.h
 iostream
 -
 vector
@@ -17,8 +21,4 @@ queue
 -
 list
 -
-
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/main.cpp
-PrimMST.h
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/PrimMST.h
 

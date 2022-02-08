@@ -52,10 +52,10 @@ RM = C:\Users\Orsi\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07"
+CMAKE_SOURCE_DIR = "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab7.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/lab7.dir/flags.make
 
 CMakeFiles/lab7.dir/main.cpp.obj: CMakeFiles/lab7.dir/flags.make
 CMakeFiles/lab7.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab7.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\main.cpp.obj -c "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab7.dir/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\main.cpp.obj -c "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\main.cpp"
 
 CMakeFiles/lab7.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\main.cpp" > CMakeFiles\lab7.dir\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\main.cpp" > CMakeFiles\lab7.dir\main.cpp.i
 
 CMakeFiles/lab7.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\main.cpp" -o CMakeFiles\lab7.dir\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\main.cpp" -o CMakeFiles\lab7.dir\main.cpp.s
 
 CMakeFiles/lab7.dir/PrimMST.cpp.obj: CMakeFiles/lab7.dir/flags.make
 CMakeFiles/lab7.dir/PrimMST.cpp.obj: ../PrimMST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab7.dir/PrimMST.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\PrimMST.cpp.obj -c "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\PrimMST.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab7.dir/PrimMST.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\PrimMST.cpp.obj -c "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\PrimMST.cpp"
 
 CMakeFiles/lab7.dir/PrimMST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7.dir/PrimMST.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\PrimMST.cpp" > CMakeFiles\lab7.dir\PrimMST.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\PrimMST.cpp" > CMakeFiles\lab7.dir\PrimMST.cpp.i
 
 CMakeFiles/lab7.dir/PrimMST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7.dir/PrimMST.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\PrimMST.cpp" -o CMakeFiles\lab7.dir\PrimMST.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\PrimMST.cpp" -o CMakeFiles\lab7.dir\PrimMST.cpp.s
 
 # Object files for target lab7
 lab7_OBJECTS = \
@@ -105,7 +105,7 @@ lab7.exe: CMakeFiles/lab7.dir/build.make
 lab7.exe: CMakeFiles/lab7.dir/linklibs.rsp
 lab7.exe: CMakeFiles/lab7.dir/objects1.rsp
 lab7.exe: CMakeFiles/lab7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -117,6 +117,6 @@ CMakeFiles/lab7.dir/clean:
 .PHONY : CMakeFiles/lab7.dir/clean
 
 CMakeFiles/lab7.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\lab07\cmake-build-debug\CMakeFiles\lab7.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug" "C:\Users\Orsi\Desktop\Egyetem\Graf algoritmusok\Graph\PrimMST\cmake-build-debug\CMakeFiles\lab7.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/lab7.dir/depend
 

@@ -21,6 +21,8 @@ void Graph ::addNode(int id) {
         this->children.resize(nCount);
         this->dist.resize(this->nCount);
         this->fathers.reserve(this->nCount);
+        this->degrees.resize(this->nCount);
+        std::fill(this->degrees.begin(), this->degrees.end(), 0);
     }
 }
 
@@ -51,46 +53,6 @@ void Graph::printAdjList() const {
         cout << endl;
     }
 }
-
-/* Greedy algorithm, in every step we add the minimal weighted edge */
-void Graph::PrimS(int src) { // src = root, start point
-    std::fill(this->dist.begin(), this->dist.end(), INF);
-    std::fill(this->parents.begin(), this->parents.end(), -1);
-    priority_queue<edgePair, vector<edgePair>, greater<>> pq; // sort point by weight
-
-    vector<bool> inMST(this->nCount, false); // check if node is in MST or not
-
-    this->dist[src] = 0; // set root's distance from root to 0
-    pq.push(make_pair(0, src)); // the root's weight is equal to 0
-
-    while(!pq.empty()) {
-        int u = abs(pq.top().second); // get second value which is the smallest value
-        pq.pop(); // delete node from queue
-
-        if(inMST[u]){ // if the point is not already in the MST
-            continue;
-        }
-
-        inMST[u] = true;
-
-        for(auto & pair : adj[u]) { // go through its neighbors
-            int v = pair.first; // get its pair (if edge is a -b then b)
-            int weight = pair.second; // get the value
-
-            if(!inMST[v] && this->dist[v] > weight) { // if v is not in the MST and its weight is smaller than the distance
-                this->dist[v] = weight;
-                pq.push(make_pair(this->dist[v], v)); // weight + v
-                this->parents[v] = u;
-                cout << v  + 1 << " ";
-            }
-        }
-    }
-
-    for(int i = 1; i < this->nCount; i++){
-        cout << this->parents[i] + 1 << " " << i + 1 << endl;
-    }
-}
-
 
 /* Expanded Prim algorithm */
 void Graph::Prim(int src) {
@@ -131,6 +93,10 @@ void Graph::Prim(int src) {
     for(int step = 0; step < this->nCount - 1;  step++) {
         int i = getMinCut(cEdges, attachedEdge); // get minimum edge index from the actual cut
         cout << cEdges[i].first.first->id << " " << cEdges[i].first.second->id << " " << cEdges[i].second << endl;
+
+        this->degrees[cEdges[i].first.first->id - 1] += 1;
+        this->degrees[cEdges[i].first.second->id - 1] += 1;
+
         this->attachedEdge[i] = 1;
         total_weight += cEdges[i].second;
 
@@ -165,6 +131,10 @@ void Graph::Prim(int src) {
     }
 
     cout << total_weight << endl;
+
+    for(const auto& it : this->degrees) {
+        cout << it << " ";
+    }
 }
 
 int Graph::getMinCut(const vector<weightedEdge>& v, const vector<int>& attached) {

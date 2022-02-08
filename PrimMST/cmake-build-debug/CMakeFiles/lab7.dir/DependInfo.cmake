@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/PrimMST.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/cmake-build-debug/CMakeFiles/lab7.dir/PrimMST.cpp.obj"
-  "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/main.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/lab07/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.obj"
+  "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/PrimMST.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/cmake-build-debug/CMakeFiles/lab7.dir/PrimMST.cpp.obj"
+  "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/main.cpp" "C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/PrimMST/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

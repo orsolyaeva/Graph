@@ -54,6 +54,8 @@ private:
     vector<int> attachedEdge;
     priority_queue<weightedEdge, vector<weightedEdge>, comparison> wEdges;
     list< pair<int, int> > *adj; // store the vertex and weight pair for every edge
+    vector<int> degrees;
+    vector<int> new_degree;
 
 public:
     Graph(int nLimit = 0, int eLimit = 0);

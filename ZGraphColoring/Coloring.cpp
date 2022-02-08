@@ -21,7 +21,7 @@ void Graph ::addNode(int id) {
         this->paths.emplace_back(0);
         this->children.resize(nCount);
         this->dist.resize(this->nCount);
-        this->fathers.reserve(this->nCount);
+        this->fathers.resize(this->nCount);
     }
 }
 
@@ -198,3 +198,4 @@ Graph readGraphFile(const string& filename) {
 
     return graph;
 }
+
