@@ -2,5 +2,5 @@
 
 int main() {
     Graph graph = readGraphFile("input.txt");
-    graph.BFS(0);
+    graph.BFS(3);
 }

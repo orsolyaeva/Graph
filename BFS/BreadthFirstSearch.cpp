@@ -69,6 +69,8 @@ void Graph::BFS(int src)
         queue.pop_front();
         resultBFS.push_back(u);
 
+        cout << u + 1<< " ";
+
         // Iterate through the neighbors of the node
         for(auto& neighbor : this->nodes[u].neighbors)
         {
@@ -84,9 +86,10 @@ void Graph::BFS(int src)
         }
     }
 
+    cout << endl;
     cout << "Shortest paths:" << endl;
-    for(int i = 1; i < this->nCount; i++) {
-        cout << src + 1 << " ";
+    for(int i = 0; i < this->nCount; i++) {
+//        cout << src + 1 << " ";
         getShortestPaths(i);
         cout << endl;
     }

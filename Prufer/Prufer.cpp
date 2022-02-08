@@ -64,6 +64,14 @@ void Graph::printPruferCode()
 }
 
 void Graph::decodePruferCode(){
+    this->pruferCode.resize(7);
+    this->pruferCode.emplace_back(1);
+    this->pruferCode.emplace_back(1);
+    this->pruferCode.emplace_back(5);
+    this->pruferCode.emplace_back(5);
+    this->pruferCode.emplace_back(5);
+    this->pruferCode.emplace_back(7);
+    this->pruferCode.emplace_back(8);
     for(int i = 0; i < this->pruferCode.size()+2; ++i)
     {
         this->addNode(i);

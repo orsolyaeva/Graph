@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.cpp
-Prufer.h
-C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
-
 C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
 iostream
 -
@@ -33,4 +29,6 @@ array
 C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/main.cpp
 Prufer.h
 C:/Users/Orsi/Desktop/Egyetem/Graf algoritmusok/Graph/Prufer/Prufer.h
+bits/stdc++.h
+-
 
